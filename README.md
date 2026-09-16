@@ -1,4 +1,4 @@
-# Futures Agent
+# Hierarchy Agents Futures
 
 A compact research repository for minute-level Chinese futures backtesting and
 a hierarchical PPO experiment. The learned system combines long- and
