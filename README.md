@@ -23,21 +23,6 @@ The deterministic engine supports long and short positions, contract
 multipliers, margin checks, tick-based slippage, and amount- or ratio-based
 fees. The bundled market metadata currently covers **RB only**.
 
-## What was cleaned up
-
-This version reconstructs a 2025 team prototype and applies focused fixes:
-
-- cost-basis P&L accounting without double-counting open or realized P&L;
-- PPO actions mapped to bounded absolute target positions;
-- chronological 60/40 train/evaluation convention;
-- long and short positions in the simplified RL environment;
-- daily-return Sharpe and closing-event win rate;
-- working `step_min`, local-calendar database boundaries, and portable paths;
-- source registry, tests, dependency metadata, and generated-file exclusions.
-
-The original saved backtest summaries should be treated as legacy outputs and
-should not be compared directly with results from this corrected engine.
-
 ## Setup
 
 ```bash
