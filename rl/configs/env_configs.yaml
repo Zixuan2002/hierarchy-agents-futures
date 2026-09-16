@@ -1,0 +1,11 @@
+day: 0
+turbulence_threshold: 140
+hmax: 4
+initial_balance: 1000000
+nb_stock: 1         # IMPORTANT: single contract
+transaction_fee: 0.000111  # RB illustrative ratio assumption
+reward_scaling: 0.0001
+seed: 42
+env_type: "train"
+multiplier: 10       # RB example; change for another contract
+margin_ratio: 0.21   # illustrative assumption, not live exchange data

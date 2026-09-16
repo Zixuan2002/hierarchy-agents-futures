@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+._*
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local market data and trained models
+data/db/
+data/rl/*.csv
+models/**/*.zip
+
+# Generated reports and logs
+reports/backtests/*
+reports/kline/*
+*.log
+debug.txt
+actions.txt
+
+!reports/backtests/.gitkeep
+!reports/kline/.gitkeep
