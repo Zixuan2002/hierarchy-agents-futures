@@ -36,7 +36,7 @@ For development, run `make setup` and then `make check`.
 Place a per-contract SQLite database at `data/db/<contract>.db`. It must contain
 a `ticks` table with `ts_event_ms`, `last_price`, and cumulative `volume`.
 Databases, generated datasets, reports, and trained models are intentionally
-ignored by Git.
+ignored by Git. Original data could be provided by reaching out to zixuanzhou2002@gmail.com .
 
 ## Baseline backtest
 
@@ -85,9 +85,11 @@ pytest
 
 ## Data and rule assumptions
 
-`data/market_rules/ini/20230101.ini` is a recovered set of illustrative project
-assumptions, not authoritative historical exchange data. Replace it with a
-dated and sourced rules file before publishing performance claims.
+`data/market_rules/ini/20230101.ini` is a set of illustrative project
+assumptions here, not authoritative historical exchange data. Replace it with a
+dated and sourced rules file. 
+
+As pre-claimed, original futures data could be provided by reaching out to zixuanzhou2002@gmail.com .
 
 ## Attribution
 
