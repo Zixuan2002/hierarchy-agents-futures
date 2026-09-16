@@ -94,9 +94,8 @@ As pre-claimed, original futures data could be provided by reaching out to zixua
 ## Attribution
 
 The team prototype was adapted from an MIT-licensed open-source PPO trading
-project and later migrated to Stable-Baselines3. See
-[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md). Add the original repository
-URL and exact upstream notice before public release.
+project and later migrated. See
+[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
 ## License
 
